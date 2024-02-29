@@ -11,9 +11,6 @@ form.addEventListener("submit", (e) => {
   let totalamount = amount + tip;
   totalamount = totalamount.toFixed(2);
 
-  form.tip.value = "";
-  form.amount.value = "";
-
   let total = document.querySelector("h2");
   let totalDisplay = `Total: $${totalamount}`;
   total.innerText = totalDisplay;
