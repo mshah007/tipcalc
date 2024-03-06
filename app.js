@@ -1,4 +1,3 @@
-function calculate(e) {}
 const form = document.querySelector(".input-form");
 form.addEventListener("submit", (e) => {
   e.preventDefault();
